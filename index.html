@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Maths App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <button id="reset-btn" class="btn btn-secondary">Reset</button>
+      <h1 class="title">🧠 Mental Maths</h1>
+      <button id="start-btn" class="btn btn-primary">Start</button>
+    </header>
+
+    <p class="subtitle">How fast can you calculate?</p>
+
+    <p id="feedback" class="feedback">Ready?</p>
+
+    <div class="question">
+      <span id="num1" class="number">11</span>
+      <span class="sign">×</span>
+      <span id="num2" class="number">42</span>
+    </div>
+
+    <input type="number" id="answer-input" class="answer-input" placeholder="Your answer" autocomplete="off">
+
+    <div class="controls">
+      <span id="timer" class="timer">2:00</span>
+      <button id="enter-btn" class="btn btn-enter">Enter</button>
+      <span id="score" class="score">Score: 0</span>
+    </div>
+  </div>
+
+  <footer class="footer">
+    Copyright © 2026 aceworld. All rights reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
